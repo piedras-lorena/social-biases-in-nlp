@@ -161,4 +161,4 @@ cython_debug/
 
 # Others
 *.DS_Store
-reddit_posts.csv
+*.csv
