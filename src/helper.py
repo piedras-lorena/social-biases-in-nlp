@@ -1,6 +1,6 @@
 from google.cloud import language_v1
 
-def predict_sentiment(sentence):
+def predict_sentiment(sentence, debug=False):
     client = language_v1.LanguageServiceClient()
 
     # The text to analyze
@@ -13,6 +13,8 @@ def predict_sentiment(sentence):
         request={"document": document}
     ).document_sentiment
 
-    print("Text: {}".format(sentence))
-    print("Sentiment: {}, {}".format(sentiment.score, sentiment.magnitude))
+    if debug:
+        print("Text: {}".format(sentence))
+        print("Sentiment: {}, {}".format(sentiment.score, sentiment.magnitude))
+        
     return sentiment
