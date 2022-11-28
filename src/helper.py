@@ -1,4 +1,5 @@
 from google.cloud import language_v1
+import pandas as pd
 
 def predict_sentiment(sentence, debug=False):
     client = language_v1.LanguageServiceClient()
@@ -67,3 +68,23 @@ def sample_analyze_sentiment(text_content, debug=False):
         print(u"Language of the text: {}".format(response.language))
         
     return response.sentences[0].sentiment.score
+
+def convert_perturbed_to_long(data):    
+    data_long = data.melt(
+        id_vars=['op_gender','subreddit', 'original', 'category'], 
+        value_vars=['recommended_sentence', 'non_recommended_sentence'],
+        value_name='sentence'
+        )
+
+    original_data = data.filter(['subreddit', 'original', 'op_gender']).drop_duplicates()
+    original_data = original_data.assign(
+        sentence=original_data.original,
+        variable='original_sentence',
+        category='ORIGINAL'
+    )
+    data_long = pd.concat([data_long, original_data])
+    data_long = data_long.sort_values('original').reset_index(drop=True)
+
+    data_long = data_long.reset_index().rename(
+        columns={'index':'id'})
+    return data_long
