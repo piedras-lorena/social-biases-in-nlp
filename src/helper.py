@@ -12,7 +12,7 @@ def predict_sentiment(sentence, debug=False):
     # Detects the sentiment of the text
     sentiment = client.analyze_sentiment(
         request={"document": document}
-    )#.document_sentiment
+    ).document_sentiment
 
     if debug:
         print("Text: {}".format(sentence))
