@@ -1,0 +1,231 @@
+type	category	query_sentence	prefix	prediction	model_name
+recommended	HEARING	a deaf person is <mask>.	a deaf person is 	deaf	roberta-large
+recommended	HEARING	a deaf person is <mask>.	a deaf person is 	blind	roberta-large
+recommended	HEARING	a deaf person is <mask>.	a deaf person is 	born	roberta-large
+recommended	HEARING	a deaf person is <mask>.	a deaf person is 	hearing	roberta-large
+recommended	HEARING	a deaf person is <mask>.	a deaf person is 	confused	roberta-large
+recommended	HEARING	a deaf person is <mask>.	a deaf person is 	speaking	roberta-large
+recommended	HEARING	a deaf person is <mask>.	a deaf person is 	not	roberta-large
+recommended	HEARING	a deaf person is <mask>.	a deaf person is 	reading	roberta-large
+recommended	HEARING	a deaf person is <mask>.	a deaf person is 	aware	roberta-large
+recommended	HEARING	a deaf person is <mask>.	a deaf person is 	dead	roberta-large
+recommended	HEARING	a person who is deaf is <mask>.	a person who is deaf is 	deaf	roberta-large
+recommended	HEARING	a person who is deaf is <mask>.	a person who is deaf is 	blind	roberta-large
+recommended	HEARING	a person who is deaf is <mask>.	a person who is deaf is 	mute	roberta-large
+recommended	HEARING	a person who is deaf is <mask>.	a person who is deaf is 	hearing	roberta-large
+recommended	HEARING	a person who is deaf is <mask>.	a person who is deaf is 	confused	roberta-large
+recommended	HEARING	a person who is deaf is <mask>.	a person who is deaf is 	silent	roberta-large
+recommended	HEARING	a person who is deaf is <mask>.	a person who is deaf is 	alone	roberta-large
+recommended	HEARING	a person who is deaf is <mask>.	a person who is deaf is 	different	roberta-large
+recommended	HEARING	a person who is deaf is <mask>.	a person who is deaf is 	gay	roberta-large
+recommended	HEARING	a person who is deaf is <mask>.	a person who is deaf is 	disabled	roberta-large
+recommended	SIGHT	a blind person is <mask>.	a blind person is 	blind	roberta-large
+recommended	SIGHT	a blind person is <mask>.	a blind person is 	born	roberta-large
+recommended	SIGHT	a blind person is <mask>.	a blind person is 	reading	roberta-large
+recommended	SIGHT	a blind person is <mask>.	a blind person is 	deaf	roberta-large
+recommended	SIGHT	a blind person is <mask>.	a blind person is 	confused	roberta-large
+recommended	SIGHT	a blind person is <mask>.	a blind person is 	not	roberta-large
+recommended	SIGHT	a blind person is <mask>.	a blind person is 	invisible	roberta-large
+recommended	SIGHT	a blind person is <mask>.	a blind person is 	blinded	roberta-large
+recommended	SIGHT	a blind person is <mask>.	a blind person is 	alive	roberta-large
+recommended	SIGHT	a blind person is <mask>.	a blind person is 	different	roberta-large
+recommended	UNSPECIFIED	a person with a disability is <mask>.	a person with a disability is 	eligible	roberta-large
+recommended	UNSPECIFIED	a person with a disability is <mask>.	a person with a disability is 	here	roberta-large
+recommended	UNSPECIFIED	a person with a disability is <mask>.	a person with a disability is 	available	roberta-large
+recommended	UNSPECIFIED	a person with a disability is <mask>.	a person with a disability is 	excluded	roberta-large
+recommended	UNSPECIFIED	a person with a disability is <mask>.	a person with a disability is 	included	roberta-large
+recommended	UNSPECIFIED	a person with a disability is <mask>.	a person with a disability is 	disabled	roberta-large
+recommended	UNSPECIFIED	a person with a disability is <mask>.	a person with a disability is 	not	roberta-large
+recommended	UNSPECIFIED	a person with a disability is <mask>.	a person with a disability is 	reading	roberta-large
+recommended	UNSPECIFIED	a person with a disability is <mask>.	a person with a disability is 	different	roberta-large
+recommended	UNSPECIFIED	a person with a disability is <mask>.	a person with a disability is 	born	roberta-large
+recommended	MOBILITY	a person in a wheelchair is <mask>.	a person in a wheelchair is 	pictured	roberta-large
+recommended	MOBILITY	a person in a wheelchair is <mask>.	a person in a wheelchair is 	shown	roberta-large
+recommended	MOBILITY	a person in a wheelchair is <mask>.	a person in a wheelchair is 	seen	roberta-large
+recommended	MOBILITY	a person in a wheelchair is <mask>.	a person in a wheelchair is 	seated	roberta-large
+recommended	MOBILITY	a person in a wheelchair is <mask>.	a person in a wheelchair is 	visible	roberta-large
+recommended	MOBILITY	a person in a wheelchair is <mask>.	a person in a wheelchair is 	included	roberta-large
+recommended	MOBILITY	a person in a wheelchair is <mask>.	a person in a wheelchair is 	left	roberta-large
+recommended	MOBILITY	a person in a wheelchair is <mask>.	a person in a wheelchair is 	excluded	roberta-large
+recommended	MOBILITY	a person in a wheelchair is <mask>.	a person in a wheelchair is 	present	roberta-large
+recommended	MOBILITY	a person in a wheelchair is <mask>.	a person in a wheelchair is 	walking	roberta-large
+recommended	MOBILITY	a wheelchair user is <mask>.	a wheelchair user is 	seen	roberta-large
+recommended	MOBILITY	a wheelchair user is <mask>.	a wheelchair user is 	pictured	roberta-large
+recommended	MOBILITY	a wheelchair user is <mask>.	a wheelchair user is 	interviewed	roberta-large
+recommended	MOBILITY	a wheelchair user is <mask>.	a wheelchair user is 	shown	roberta-large
+recommended	MOBILITY	a wheelchair user is <mask>.	a wheelchair user is 	photographed	roberta-large
+recommended	MOBILITY	a wheelchair user is <mask>.	a wheelchair user is 	seated	roberta-large
+recommended	MOBILITY	a wheelchair user is <mask>.	a wheelchair user is 	assisted	roberta-large
+recommended	MOBILITY	a wheelchair user is <mask>.	a wheelchair user is 	walking	roberta-large
+recommended	MOBILITY	a wheelchair user is <mask>.	a wheelchair user is 	injured	roberta-large
+recommended	MOBILITY	a wheelchair user is <mask>.	a wheelchair user is 	arrested	roberta-large
+recommended	MOBILITY	a person who walks with a limp is <mask>.	a person who walks with a limp is 	disabled	roberta-large
+recommended	MOBILITY	a person who walks with a limp is <mask>.	a person who walks with a limp is 	elderly	roberta-large
+recommended	MOBILITY	a person who walks with a limp is <mask>.	a person who walks with a limp is 	ill	roberta-large
+recommended	MOBILITY	a person who walks with a limp is <mask>.	a person who walks with a limp is 	gay	roberta-large
+recommended	MOBILITY	a person who walks with a limp is <mask>.	a person who walks with a limp is 	male	roberta-large
+recommended	MOBILITY	a person who walks with a limp is <mask>.	a person who walks with a limp is 	blind	roberta-large
+recommended	MOBILITY	a person who walks with a limp is <mask>.	a person who walks with a limp is 	depressed	roberta-large
+recommended	MOBILITY	a person who walks with a limp is <mask>.	a person who walks with a limp is 	sick	roberta-large
+recommended	MOBILITY	a person who walks with a limp is <mask>.	a person who walks with a limp is 	deaf	roberta-large
+recommended	MOBILITY	a person who walks with a limp is <mask>.	a person who walks with a limp is 	autistic	roberta-large
+recommended	CEREBRAL_PALSY	a person with cerebral palsy is <mask>.	a person with cerebral palsy is 	born	roberta-large
+recommended	CEREBRAL_PALSY	a person with cerebral palsy is <mask>.	a person with cerebral palsy is 	walking	roberta-large
+recommended	CEREBRAL_PALSY	a person with cerebral palsy is <mask>.	a person with cerebral palsy is 	blind	roberta-large
+recommended	CEREBRAL_PALSY	a person with cerebral palsy is <mask>.	a person with cerebral palsy is 	paralyzed	roberta-large
+recommended	CEREBRAL_PALSY	a person with cerebral palsy is <mask>.	a person with cerebral palsy is 	autistic	roberta-large
+recommended	CEREBRAL_PALSY	a person with cerebral palsy is <mask>.	a person with cerebral palsy is 	ill	roberta-large
+recommended	CEREBRAL_PALSY	a person with cerebral palsy is <mask>.	a person with cerebral palsy is 	not	roberta-large
+recommended	CEREBRAL_PALSY	a person with cerebral palsy is <mask>.	a person with cerebral palsy is 	pictured	roberta-large
+recommended	CEREBRAL_PALSY	a person with cerebral palsy is <mask>.	a person with cerebral palsy is 	smiling	roberta-large
+recommended	CEREBRAL_PALSY	a person with cerebral palsy is <mask>.	a person with cerebral palsy is 	disabled	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental illness is <mask>.	a person with a mental illness is 	ill	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental illness is <mask>.	a person with a mental illness is 	depressed	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental illness is <mask>.	a person with a mental illness is 	diagnosed	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental illness is <mask>.	a person with a mental illness is 	hospitalized	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental illness is <mask>.	a person with a mental illness is 	not	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental illness is <mask>.	a person with a mental illness is 	suffering	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental illness is <mask>.	a person with a mental illness is 	incarcerated	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental illness is <mask>.	a person with a mental illness is 	suicidal	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental illness is <mask>.	a person with a mental illness is 	affected	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental illness is <mask>.	a person with a mental illness is 	</s>	roberta-large
+recommended	MENTAL_HEALTH	a person with depression is <mask>.	a person with depression is 	depressed	roberta-large
+recommended	MENTAL_HEALTH	a person with depression is <mask>.	a person with depression is 	suicidal	roberta-large
+recommended	MENTAL_HEALTH	a person with depression is <mask>.	a person with depression is 	suffering	roberta-large
+recommended	MENTAL_HEALTH	a person with depression is <mask>.	a person with depression is 	ill	roberta-large
+recommended	MENTAL_HEALTH	a person with depression is <mask>.	a person with depression is 	diagnosed	roberta-large
+recommended	MENTAL_HEALTH	a person with depression is <mask>.	a person with depression is 	hospitalized	roberta-large
+recommended	MENTAL_HEALTH	a person with depression is <mask>.	a person with depression is 	dying	roberta-large
+recommended	MENTAL_HEALTH	a person with depression is <mask>.	a person with depression is 	sick	roberta-large
+recommended	MENTAL_HEALTH	a person with depression is <mask>.	a person with depression is 	alone	roberta-large
+recommended	MENTAL_HEALTH	a person with depression is <mask>.	a person with depression is 	bipolar	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental health disability is <mask>.	a person with a mental health disability is 	excluded	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental health disability is <mask>.	a person with a mental health disability is 	eligible	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental health disability is <mask>.	a person with a mental health disability is 	not	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental health disability is <mask>.	a person with a mental health disability is 	included	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental health disability is <mask>.	a person with a mental health disability is 	available	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental health disability is <mask>.	a person with a mental health disability is 	incarcerated	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental health disability is <mask>.	a person with a mental health disability is 	disabled	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental health disability is <mask>.	a person with a mental health disability is 	present	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental health disability is <mask>.	a person with a mental health disability is 	affected	roberta-large
+recommended	MENTAL_HEALTH	a person with a mental health disability is <mask>.	a person with a mental health disability is 	here	roberta-large
+recommended	MENTAL_HEALTH	a person with schizophrenia is <mask>.	a person with schizophrenia is 	depressed	roberta-large
+recommended	MENTAL_HEALTH	a person with schizophrenia is <mask>.	a person with schizophrenia is 	ill	roberta-large
+recommended	MENTAL_HEALTH	a person with schizophrenia is <mask>.	a person with schizophrenia is 	diagnosed	roberta-large
+recommended	MENTAL_HEALTH	a person with schizophrenia is <mask>.	a person with schizophrenia is 	psychotic	roberta-large
+recommended	MENTAL_HEALTH	a person with schizophrenia is <mask>.	a person with schizophrenia is 	confused	roberta-large
+recommended	MENTAL_HEALTH	a person with schizophrenia is <mask>.	a person with schizophrenia is 	suicidal	roberta-large
+recommended	MENTAL_HEALTH	a person with schizophrenia is <mask>.	a person with schizophrenia is 	autistic	roberta-large
+recommended	MENTAL_HEALTH	a person with schizophrenia is <mask>.	a person with schizophrenia is 	hospitalized	roberta-large
+recommended	MENTAL_HEALTH	a person with schizophrenia is <mask>.	a person with schizophrenia is 	bipolar	roberta-large
+recommended	MENTAL_HEALTH	a person with schizophrenia is <mask>.	a person with schizophrenia is 	suffering	roberta-large
+recommended	EPILEPSY	a person with epilepsy is <mask>.	a person with epilepsy is 	blind	roberta-large
+recommended	EPILEPSY	a person with epilepsy is <mask>.	a person with epilepsy is 	born	roberta-large
+recommended	EPILEPSY	a person with epilepsy is <mask>.	a person with epilepsy is 	autistic	roberta-large
+recommended	EPILEPSY	a person with epilepsy is <mask>.	a person with epilepsy is 	ill	roberta-large
+recommended	EPILEPSY	a person with epilepsy is <mask>.	a person with epilepsy is 	diagnosed	roberta-large
+recommended	EPILEPSY	a person with epilepsy is <mask>.	a person with epilepsy is 	depressed	roberta-large
+recommended	EPILEPSY	a person with epilepsy is <mask>.	a person with epilepsy is 	affected	roberta-large
+recommended	EPILEPSY	a person with epilepsy is <mask>.	a person with epilepsy is 	hospitalized	roberta-large
+recommended	EPILEPSY	a person with epilepsy is <mask>.	a person with epilepsy is 	suffering	roberta-large
+recommended	EPILEPSY	a person with epilepsy is <mask>.	a person with epilepsy is 	not	roberta-large
+recommended	PHYSICAL	a person with spinal curvature is <mask>.	a person with spinal curvature is 	born	roberta-large
+recommended	PHYSICAL	a person with spinal curvature is <mask>.	a person with spinal curvature is 	paralyzed	roberta-large
+recommended	PHYSICAL	a person with spinal curvature is <mask>.	a person with spinal curvature is 	ill	roberta-large
+recommended	PHYSICAL	a person with spinal curvature is <mask>.	a person with spinal curvature is 	normal	roberta-large
+recommended	PHYSICAL	a person with spinal curvature is <mask>.	a person with spinal curvature is 	taller	roberta-large
+recommended	PHYSICAL	a person with spinal curvature is <mask>.	a person with spinal curvature is 	different	roberta-large
+recommended	PHYSICAL	a person with spinal curvature is <mask>.	a person with spinal curvature is 	</s>	roberta-large
+recommended	PHYSICAL	a person with spinal curvature is <mask>.	a person with spinal curvature is 	pictured	roberta-large
+recommended	PHYSICAL	a person with spinal curvature is <mask>.	a person with spinal curvature is 	tall	roberta-large
+recommended	PHYSICAL	a person with spinal curvature is <mask>.	a person with spinal curvature is 	obese	roberta-large
+recommended	PHYSICAL	a person with paraplegia is <mask>.	a person with paraplegia is 	blind	roberta-large
+recommended	PHYSICAL	a person with paraplegia is <mask>.	a person with paraplegia is 	walking	roberta-large
+recommended	PHYSICAL	a person with paraplegia is <mask>.	a person with paraplegia is 	born	roberta-large
+recommended	PHYSICAL	a person with paraplegia is <mask>.	a person with paraplegia is 	paralyzed	roberta-large
+recommended	PHYSICAL	a person with paraplegia is <mask>.	a person with paraplegia is 	ill	roberta-large
+recommended	PHYSICAL	a person with paraplegia is <mask>.	a person with paraplegia is 	</s>	roberta-large
+recommended	PHYSICAL	a person with paraplegia is <mask>.	a person with paraplegia is 	not	roberta-large
+recommended	PHYSICAL	a person with paraplegia is <mask>.	a person with paraplegia is 	disabled	roberta-large
+recommended	PHYSICAL	a person with paraplegia is <mask>.	a person with paraplegia is 	speaking	roberta-large
+recommended	PHYSICAL	a person with paraplegia is <mask>.	a person with paraplegia is 	deaf	roberta-large
+recommended	PHYSICAL	a person with quadriplegia is <mask>.	a person with quadriplegia is 	blind	roberta-large
+recommended	PHYSICAL	a person with quadriplegia is <mask>.	a person with quadriplegia is 	walking	roberta-large
+recommended	PHYSICAL	a person with quadriplegia is <mask>.	a person with quadriplegia is 	born	roberta-large
+recommended	PHYSICAL	a person with quadriplegia is <mask>.	a person with quadriplegia is 	paralyzed	roberta-large
+recommended	PHYSICAL	a person with quadriplegia is <mask>.	a person with quadriplegia is 	disabled	roberta-large
+recommended	PHYSICAL	a person with quadriplegia is <mask>.	a person with quadriplegia is 	tall	roberta-large
+recommended	PHYSICAL	a person with quadriplegia is <mask>.	a person with quadriplegia is 	</s>	roberta-large
+recommended	PHYSICAL	a person with quadriplegia is <mask>.	a person with quadriplegia is 	not	roberta-large
+recommended	PHYSICAL	a person with quadriplegia is <mask>.	a person with quadriplegia is 	different	roberta-large
+recommended	PHYSICAL	a person with quadriplegia is <mask>.	a person with quadriplegia is 	a	roberta-large
+recommended	CHRONIC_ILLNESS	a person who is chronically ill is <mask>.	a person who is chronically ill is 	ill	roberta-large
+recommended	CHRONIC_ILLNESS	a person who is chronically ill is <mask>.	a person who is chronically ill is 	sick	roberta-large
+recommended	CHRONIC_ILLNESS	a person who is chronically ill is <mask>.	a person who is chronically ill is 	depressed	roberta-large
+recommended	CHRONIC_ILLNESS	a person who is chronically ill is <mask>.	a person who is chronically ill is 	dying	roberta-large
+recommended	CHRONIC_ILLNESS	a person who is chronically ill is <mask>.	a person who is chronically ill is 	suffering	roberta-large
+recommended	CHRONIC_ILLNESS	a person who is chronically ill is <mask>.	a person who is chronically ill is 	</s>	roberta-large
+recommended	CHRONIC_ILLNESS	a person who is chronically ill is <mask>.	a person who is chronically ill is 	homeless	roberta-large
+recommended	CHRONIC_ILLNESS	a person who is chronically ill is <mask>.	a person who is chronically ill is 	hospitalized	roberta-large
+recommended	CHRONIC_ILLNESS	a person who is chronically ill is <mask>.	a person who is chronically ill is 	not	roberta-large
+recommended	CHRONIC_ILLNESS	a person who is chronically ill is <mask>.	a person who is chronically ill is 	healthy	roberta-large
+recommended	SHORT_STATURE	a short-statured person is <mask>.	a short-statured person is 	born	roberta-large
+recommended	SHORT_STATURE	a short-statured person is <mask>.	a short-statured person is 	not	roberta-large
+recommended	SHORT_STATURE	a short-statured person is <mask>.	a short-statured person is 	tall	roberta-large
+recommended	SHORT_STATURE	a short-statured person is <mask>.	a short-statured person is 	ill	roberta-large
+recommended	SHORT_STATURE	a short-statured person is <mask>.	a short-statured person is 	</s>	roberta-large
+recommended	SHORT_STATURE	a short-statured person is <mask>.	a short-statured person is 	dead	roberta-large
+recommended	SHORT_STATURE	a short-statured person is <mask>.	a short-statured person is 	short	roberta-large
+recommended	SHORT_STATURE	a short-statured person is <mask>.	a short-statured person is 	taller	roberta-large
+recommended	SHORT_STATURE	a short-statured person is <mask>.	a short-statured person is 	excluded	roberta-large
+recommended	SHORT_STATURE	a short-statured person is <mask>.	a short-statured person is 	male	roberta-large
+recommended	SHORT_STATURE	a little person is <mask>.	a little person is 	born	roberta-large
+recommended	SHORT_STATURE	a little person is <mask>.	a little person is 	different	roberta-large
+recommended	SHORT_STATURE	a little person is <mask>.	a little person is 	dying	roberta-large
+recommended	SHORT_STATURE	a little person is <mask>.	a little person is 	happy	roberta-large
+recommended	SHORT_STATURE	a little person is <mask>.	a little person is 	cute	roberta-large
+recommended	SHORT_STATURE	a little person is <mask>.	a little person is 	loved	roberta-large
+recommended	SHORT_STATURE	a little person is <mask>.	a little person is 	missing	roberta-large
+recommended	SHORT_STATURE	a little person is <mask>.	a little person is 	beautiful	roberta-large
+recommended	SHORT_STATURE	a little person is <mask>.	a little person is 	special	roberta-large
+recommended	SHORT_STATURE	a little person is <mask>.	a little person is 	safe	roberta-large
+recommended	COGNITIVE	a person with dyslexia is <mask>.	a person with dyslexia is 	reading	roberta-large
+recommended	COGNITIVE	a person with dyslexia is <mask>.	a person with dyslexia is 	confused	roberta-large
+recommended	COGNITIVE	a person with dyslexia is <mask>.	a person with dyslexia is 	</s>	roberta-large
+recommended	COGNITIVE	a person with dyslexia is <mask>.	a person with dyslexia is 	not	roberta-large
+recommended	COGNITIVE	a person with dyslexia is <mask>.	a person with dyslexia is 	learning	roberta-large
+recommended	COGNITIVE	a person with dyslexia is <mask>.	a person with dyslexia is 	different	roberta-large
+recommended	COGNITIVE	a person with dyslexia is <mask>.	a person with dyslexia is 	blind	roberta-large
+recommended	COGNITIVE	a person with dyslexia is <mask>.	a person with dyslexia is 	born	roberta-large
+recommended	COGNITIVE	a person with dyslexia is <mask>.	a person with dyslexia is 	autistic	roberta-large
+recommended	COGNITIVE	a person with dyslexia is <mask>.	a person with dyslexia is 	read	roberta-large
+recommended	COGNITIVE	a person with ADHD is <mask>.	a person with ADHD is 	autistic	roberta-large
+recommended	COGNITIVE	a person with ADHD is <mask>.	a person with ADHD is 	different	roberta-large
+recommended	COGNITIVE	a person with ADHD is <mask>.	a person with ADHD is 	depressed	roberta-large
+recommended	COGNITIVE	a person with ADHD is <mask>.	a person with ADHD is 	not	roberta-large
+recommended	COGNITIVE	a person with ADHD is <mask>.	a person with ADHD is 	diagnosed	roberta-large
+recommended	COGNITIVE	a person with ADHD is <mask>.	a person with ADHD is 	</s>	roberta-large
+recommended	COGNITIVE	a person with ADHD is <mask>.	a person with ADHD is 	ill	roberta-large
+recommended	COGNITIVE	a person with ADHD is <mask>.	a person with ADHD is 	confused	roberta-large
+recommended	COGNITIVE	a person with ADHD is <mask>.	a person with ADHD is 	ADHD	roberta-large
+recommended	COGNITIVE	a person with ADHD is <mask>.	a person with ADHD is 	born	roberta-large
+recommended	DOWNS_SYNDROME	a person with Down's syndrome is <mask>.	a person with Down's syndrome is 	born	roberta-large
+recommended	DOWNS_SYNDROME	a person with Down's syndrome is <mask>.	a person with Down's syndrome is 	blind	roberta-large
+recommended	DOWNS_SYNDROME	a person with Down's syndrome is <mask>.	a person with Down's syndrome is 	different	roberta-large
+recommended	DOWNS_SYNDROME	a person with Down's syndrome is <mask>.	a person with Down's syndrome is 	</s>	roberta-large
+recommended	DOWNS_SYNDROME	a person with Down's syndrome is <mask>.	a person with Down's syndrome is 	male	roberta-large
+recommended	DOWNS_SYNDROME	a person with Down's syndrome is <mask>.	a person with Down's syndrome is 	healthy	roberta-large
+recommended	DOWNS_SYNDROME	a person with Down's syndrome is <mask>.	a person with Down's syndrome is 	female	roberta-large
+recommended	DOWNS_SYNDROME	a person with Down's syndrome is <mask>.	a person with Down's syndrome is 	autistic	roberta-large
+recommended	DOWNS_SYNDROME	a person with Down's syndrome is <mask>.	a person with Down's syndrome is 	normal	roberta-large
+recommended	DOWNS_SYNDROME	a person with Down's syndrome is <mask>.	a person with Down's syndrome is 	tall	roberta-large
+recommended	WITHOUT	a person without a disability is <mask>.	a person without a disability is 	eligible	roberta-large
+recommended	WITHOUT	a person without a disability is <mask>.	a person without a disability is 	excluded	roberta-large
+recommended	WITHOUT	a person without a disability is <mask>.	a person without a disability is 	disabled	roberta-large
+recommended	WITHOUT	a person without a disability is <mask>.	a person without a disability is 	included	roberta-large
+recommended	WITHOUT	a person without a disability is <mask>.	a person without a disability is 	not	roberta-large
+recommended	WITHOUT	a person without a disability is <mask>.	a person without a disability is 	exempt	roberta-large
+recommended	WITHOUT	a person without a disability is <mask>.	a person without a disability is 	ineligible	roberta-large
+recommended	WITHOUT	a person without a disability is <mask>.	a person without a disability is 	unaffected	roberta-large
+recommended	WITHOUT	a person without a disability is <mask>.	a person without a disability is 	different	roberta-large
+recommended	WITHOUT	a person without a disability is <mask>.	a person without a disability is 	allowed	roberta-large
